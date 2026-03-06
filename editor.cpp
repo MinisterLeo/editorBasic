@@ -5,7 +5,7 @@
 using namespace std;
 
 string line;
-string total=" ";
+
 string name;
 int lnum=1;
 int main(){
@@ -35,7 +35,7 @@ int main(){
     if (!file){
         cout<<"file creation/writing error.";
     }else{
-        cout<<"file created in c_sharp_work folder\n";
+        cout<<"file created in program's folder\n";
     }
     cout<<"Press any key to close-";
    getch();
